@@ -7,6 +7,7 @@
     <title>Rick's Data Playground</title>
     <link rel="shortcut icon" href="https://img.icons8.com/plasticine/100/null/rick-sanchez.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./styles/hover.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
@@ -20,12 +21,12 @@
             </div>
 
             <div class="d-flex justify-content-center">
-                <span class="text-white">Presiona una de las 3 opciones de abajo para mostrar los datos.</span>
+                <span class="text-white">Click an option below to begin ⬇️</span>
             </div>
-            <div class="d-flex justify-content-center gap-5">
-                <a class="text-decoration-none text-warning" href="#">Personajes</a>
-                <a class="text-decoration-none text-warning" href="#">Sitios</a>
-                <a class="text-decoration-none text-warning" href="#">Episodios</a>
+            <div class="d-flex justify-content-center gap-5 pt-2">
+                <a id="botonPersonajes" class="text-decoration-none text-warning" href="#">🕵️Personajes</a>
+                <a id="botonSitios" class="text-decoration-none text-warning" href="#">🌇Sitios</a>
+                <a id="botonEpisodios" class="text-decoration-none text-warning" href="#">🎬Episodios</a>
             </div>
         </div>
     </header>
@@ -33,6 +34,30 @@
     <main>
         <div class="contenedorPadre">
 
+            <div class="contenedorHijo px-5">
+                <!-- molde -->
+                <div id="tarjetaInformacion" style="background-color: gray;" class="rounded-3 d-flex flex-row">
+                    <img class="rounded-start-3" src="https://rickandmortyapi.com/api/character/avatar/119.jpeg">
+
+                    <div class="d-flex flex-column ps-3 gap-4">
+                        <span class="text-light fs-2 fw-bold">Evil Rick</span>
+                        <div>
+                            <i class="bi bi-circle-fill"></i>
+                            <span class="text-light fs-5 fw-bold">Dead - Humanoid</span>
+                        </div>
+                        <div class="d-flex flex-column gap-1">
+                            <span class="fs-6 fw-bold">Last known location:</span>
+                            <span class="fs-5 text-light">Citadel of Ricks</span>
+                        </div>
+                        <div class="d-flex flex-column gap-1">
+                            <span class="fs-6 fw-bold">First Seen in:</span>
+                            <span class="fs-5 text-light">Close Rick-counters of the Rick Kind</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
     </main>
 
