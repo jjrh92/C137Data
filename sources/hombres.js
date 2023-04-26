@@ -12,7 +12,7 @@ const contenedorHijo = document.querySelector (".contenedorHijo");
 
 function obtenerPersonajes (listo) {
 
-    let url = "https://rickandmortyapi.com/api/character/?name=rick";
+    let url = "https://rickandmortyapi.com/api/character/?gender=male";
     const resultado = fetch (url);
 
     resultado
@@ -66,7 +66,7 @@ Swal.fire ({
     iconColor: "cyan",
     color: "cyan",
     background: "black",
-    html: '<span style="font-weight: bolder; font-size: 16px;">Mostrando Ricks.</span>',
+    html: '<span style="font-weight: bolder; font-size: 16px;">Mostrando Hombres.</span>',
     showConfirmButton: false,
     timer: 2000,
 });

@@ -32,22 +32,21 @@ obtenerPersonajes (data => {
     data.results.forEach(personaje => {
 
         const tarjetaInformacion = document.createElement ("div");
-        tarjetaInformacion.setAttribute ("style", "background-color: black; height: 13rem; width: 30rem");
+        tarjetaInformacion.setAttribute ("style", "background-color: black; height: 9rem; width: 22rem");
         tarjetaInformacion.setAttribute ("class", "rounded-3 d-flex flex-row align-items-center");
         const contenido = 
             `
-                <img style="height: 13rem; width: 12rem;" class="rounded-start-3" src="${personaje.image}">
-    
-                <div class="d-flex flex-column ps-3 gap-1">
-                <a class="text-decoration-none text-warning" href="${personaje.url}"><span class="fs-4 text-info fw-semibold">${personaje.name}
+                <img style="height: 9rem; width: 7rem;" class="rounded-start-3" src="${personaje.image}">
+                <div class="d-flex flex-column ps-2 gap-1">
+                <a class="text-decoration-none text-warning" href="${personaje.url}"><span class="text-info fw-semibold">${personaje.name}
                 </a></span>
-                    <div>
-                        <span class="text-light fs-5 fw-semibold">Status: ${personaje.status} Species: ${personaje.species}</span>
+                    <div class="d-flex flex-column">
+                        <span class="text-light fw-semibold">Status: ${personaje.status}</span>
+                        <span class="text-light fw-semibold">Species: ${personaje.species}</span>
                     </div>
                     <div class="d-flex flex-column gap-1">
-                        <span class="fs-5 fw-bolder text-light">Last known location:</span>
-                        <a class="text-decoration-none text-warning" href="${personaje.location.url}"><span class="fs-6 text-info fw-semibold">${personaje.location.name}
-                        </a></span>
+                        <span class="fw-bolder text-light">Last known location:</span>
+                        <a style="font-size: 80%" class="text-decoration-none text-warning" href="${personaje.location.url}"><span class="text-info fw-semibold">${personaje.location.name}</a></span>
                     </div>
     
                 </div>
@@ -59,9 +58,18 @@ obtenerPersonajes (data => {
         
 });
 
+Swal.fire ({
 
-Swal.fire ('Bienvenid@. Mediante la API de Rick y Morty mostraremos 20 personajes por cada sección. Dejame tu feedback :D.')
+    toast: "true",
+    position: "center",
+    icon: "info",
+    iconColor: "cyan",
+    color: "cyan",
+    background: "black",
+    html: '<span style="font-weight: bolder; font-size: 16px;">Bienvenid@.<br> Estas en el indice.<br>Cualquier feedback es bien recibido :D.</span>',
+    showConfirmButton: true,
 
+});
 
 
 // Fin
