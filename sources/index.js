@@ -12,7 +12,7 @@ const contenedorHijo = document.querySelector (".contenedorHijo");
 
 function obtenerPersonajes (listo) {
 
-    let url = "https://rickandmortyapi.com/api/character/?name=summer";
+    let url = "https://rickandmortyapi.com/api/character/";
     const resultado = fetch (url);
 
     resultado
@@ -59,17 +59,10 @@ obtenerPersonajes (data => {
         
 });
 
-Swal.fire ({
 
-    toast: "true",
-    position: "center",
-    icon: "info",
-    color: "black",
-    text: "Mostrando todas las Summer.",
-    showConfirmButton: false,
-    timer: 2500,
+Swal.fire ('Bienvenid@. Mediante la API de Rick y Morty mostraremos 20 personajes por cada sección. Dejame tu feedback :D.')
 
-});
+
 
 // Fin
-// Julio Reyes 25ABR2023
+// Julio Reyes 26ABR2023
