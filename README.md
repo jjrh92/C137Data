@@ -16,7 +16,7 @@
 <h3 align="center">Welcome - Bienvenid@</h3>
 
   <p align=center">
-    JulioFlix - Videoapp.
+    Ricks Data Playground (PublicAPI).
     <br />
     <br />
     <a href="https://jjrh92.github.io/RicksDataPlayground/">View Demo - Ver Demo</a>
