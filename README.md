@@ -2,14 +2,14 @@
 
 <div align="center">
 
-![Github Contributors](https://img.shields.io/github/contributors/jjrh92/RicksDataPlayground)
-![Github Stars](https://img.shields.io/github/stars/jjrh92/RicksDataPlayground)
-![Github Issues](https://img.shields.io/github/issues-raw/jjrh92/RicksDataPlayground)
+![Github Contributors](https://img.shields.io/github/contributors/jjrh92/C137Data)
+![Github Stars](https://img.shields.io/github/stars/jjrh92/C137Data)
+![Github Issues](https://img.shields.io/github/issues-raw/jjrh92/C137Data)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jjrh92/RicksDataPlayground">
+  <a href="https://github.com/jjrh92/C137Data">
     <img src="https://sociable.co/wp-content/uploads/2018/11/Portal-Gun-2-1-375x278.jpg" alt="Logo" width="200" height="200">
   </a>
 
@@ -19,11 +19,11 @@
     Ricks Data Playground (PublicAPI).
     <br />
     <br />
-    <a href="https://jjrh92.github.io/RicksDataPlayground/">View Demo - Ver Demo</a>
+    <a href="https://c137data.julioreyes.dev/">View Demo - Ver Demo</a>
     ·
-    <a href="https://github.com/jjrh92/RicksDataPlayground/issues">Report Bug - Reportar Bug</a>
+    <a href="https://github.com/jjrh92/C137Data/issues">Report Bug - Reportar Bug</a>
     ·
-    <a href="https://github.com/jjrh92/RicksDataPlayground/issues">Request Feature - Pedir Feature</a>
+    <a href="https://github.com/jjrh92/C137Data/issues">Request Feature - Pedir Feature</a>
   </p>
 </div>
 
@@ -33,7 +33,7 @@
 About The Project <img src="https://media2.giphy.com/media/4ZrRpqbSaWoyZYRoCd/giphy.gif" width="30px"> Acerca del Proyecto
 </h1>
 
-Simple web app that supports READ operations by using a Public API . - Aplicación simple que soporta operaciones READ al usar una API Publica.
+Simple web app that supports READ operations by using a Public API. - Aplicación simple que soporta operaciones READ al usar una API Publica.
 
 <h1 align="center"> 
 Built With <img src="https://media0.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="30px"> Hecho Con
@@ -50,7 +50,7 @@ Install the project locally - Instalar el proyecto localmente.
 
 Clone the repo and run a liveserver
    ```sh
-   git clone https://github.com/jjrh92/RicksDataPlayground.git
+   git clone https://github.com/jjrh92/C137Data.git
    ```
 
 <!-- USAGE EXAMPLES -->
@@ -59,7 +59,6 @@ Usage <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2lvcWx2Ynpia3
 </h1>
 
 CRUD stands for: Create, Read, Update, Delete. - CRUD significa (por sus siglas en ingles): Crear, Leer, Actualizar, Borrar. 
-
 
 <!-- CONTRIBUTING -->
 <h1 align="center"> 
@@ -81,7 +80,7 @@ Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" w
 
 [Via Github](https://github.com/jjrh92)
 
-[Via E-Mail](mailto:admin@jjrh92.dev)
+[Via E-Mail](mailto:contact@julioreyes.dev)
 
 [Via Telegram](https://t.me/jjrh92)
 
